@@ -30,12 +30,15 @@ Setelah pembersihan dan pencegahan *data leakage* diverifikasi pada kedua pendek
 ## Struktur Repositori
 ```text
 .
+├── IndependentStudy_Vibe_Coding.ipynb   # Notebook gabungan (Kelompok A + B + Perbandingan) — siap kumpul Edunex
+├── log_prompt.csv                       # Log prompt gabungan (10 iterasi: 5 Kelompok A + 5 Kelompok B)
+├── siswa.csv                            # Dataset sintetis hasil Tahap 0
 ├── README.md
-├── Kelompok-A/
+├── Kelompok-A/                          # Arsip pengerjaan individu Kelompok A
 │   ├── IndependentStudy_Vibe_Coding.ipynb
 │   ├── log_prompt.csv
 │   └── siswa.csv
-└── Kelompok-B/
+└── Kelompok-B/                          # Arsip pengerjaan modular Kelompok B
     ├── Praktikum_Prompt_Engineering_Kel_B.ipynb
     ├── log_prompt.csv
     ├── README.md
@@ -60,12 +63,11 @@ Setelah pembersihan dan pencegahan *data leakage* diverifikasi pada kedua pendek
 
 ## Cara Menjalankan
 
-### Kelompok A
-1. Masuk ke folder `Kelompok-A/` dan buka `IndependentStudy_Vibe_Coding.ipynb` di Jupyter Notebook, VS Code, atau Google Colab.
-2. Pastikan pustaka `numpy`, `pandas`, `scikit-learn`, `matplotlib`, dan `gradio` terpasang (atau jalankan sel instalasi di Tahap 0).
-3. Jalankan seluruh sel secara berurutan (**Run All**).
+### Notebook Gabungan (Siap Kumpul Edunex)
+1. Buka `IndependentStudy_Vibe_Coding.ipynb` di root repositori melalui Google Colab, Jupyter Notebook, atau VS Code.
+2. Jalankan seluruh sel secara berurutan dari atas ke bawah (**Run All**) — seluruh bagian Kelompok A, Kelompok B, perbandingan hasil, antarmuka Gradio, audit kode Tahap 4, dan pembentukan `log_prompt.csv` berjalan mandiri tanpa unggah file eksternal.
 
-### Kelompok B
+### Proyek Modular Kelompok B (Opsional)
 1. Buka `Kelompok-B/Praktikum_Prompt_Engineering_Kel_B.ipynb`, atau jalankan versi modularnya dari dalam folder `Kelompok-B/`:
    ```bash
    cd Kelompok-B
