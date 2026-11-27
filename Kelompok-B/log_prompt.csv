@@ -1,7 +1,0 @@
-
-iterasi,kelompok,prompt,hasil,masalah_ditemukan,tindakan
-1,B,"[Rekonstruksi] Implementasikan preprocessing berdasarkan SPEC.md dan EDA_REPORT.md","Modul preprocessing.py berhasil dibuat","Missing value, duplikasi, dan potensi data leakage","Menggunakan SimpleImputer, normalisasi kategori, dan Pipeline"
-2,B,"[Rekonstruksi] Terapkan train test split dengan stratify dan random_state 42","Data training dan testing berhasil dipisahkan","Proporsi kelas perlu dijaga","Menggunakan stratify dan random_state=42"
-3,B,"[Rekonstruksi] Bangun model Logistic Regression dan lakukan evaluasi","Model baseline berhasil dilatih dan dievaluasi","Recall kelas tidak lulus masih rendah","Melaporkan metrik kedua kelas dan confusion matrix"
-4,B,"[Rekonstruksi] Buat aplikasi prediksi kelulusan menggunakan Gradio","Aplikasi Gradio berhasil dijalankan","Input pengguna perlu divalidasi","Menambahkan validasi input dan prediksi probabilitas"
-5,B,"[Rekonstruksi] Lakukan audit kode dan perbaiki temuan yang relevan","Perbaikan kode berhasil diterapkan","Ditemukan potensi masalah validasi dan error handling","Memperbaiki kode tanpa mengubah algoritma dan dataset"
